@@ -1,0 +1,80 @@
+body.background{
+    background-image: url(back1.jpeg);
+    background-size: cover;
+}
+.box{
+}
+#title{
+    margin-top: 15px;
+    padding: 5px;
+    font-size: 300%;
+    color: white;
+    font-weight: 100;
+    text-align: center; 
+    border: 3px solid white;
+}
+#content{
+    font-size:180%;
+    border: 3px solid black;
+    margin: 15px 250px;
+    height: 520px;
+}
+#content > img{
+    height: 500px;
+    padding: 15px 10px 10px 60px;
+    width: auto;
+    float: left;
+}
+#content > nav{ 
+    font-family: 'Times New Roman', Times;
+    font-size: 150%;
+    font-weight: bold;
+    padding: 10px 60px 10px 10px;
+    margin-left: 450px;
+}
+#info{
+    font-size: 150%;
+    padding: 5px 30px;
+    margin: 20px 200px;
+    background-color:  rgb(202, 231, 147);
+}
+#family{
+    
+    height: relative;
+    font-size: 150%;
+    padding: 5px 30px;
+    margin: 20px 200px;
+    background-color:rgb(183, 223, 201);
+}
+#family>img{
+    padding-right: 15px;
+    float: left;
+}
+#GD>img{
+    width: auto;
+    height: 400px;
+    padding-right: 15px;
+    float: left;
+}
+#KTL>img{
+    padding-right: 15px;
+    float: left;
+}
+#GD{
+    height: relative;
+    font-size: 150%;
+    padding: 5px 30px;
+    margin: 20px 200px;
+    background-color: rgb(184, 194, 238);
+}
+#KTL{
+    
+    height: relative;
+    font-size: 150%;
+    padding: 5px 30px;
+    margin: 20px 200px;
+    background-color:rgb(212, 184, 238) ;
+}
+*{
+    font-size: 100%;
+}
